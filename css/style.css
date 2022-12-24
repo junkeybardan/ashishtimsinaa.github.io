@@ -310,34 +310,22 @@ li .profile_title {
   height: 0.8rem;
 }
 
-/* Blogs Page */
-.blogs_page .blogs_container {
-  margin: 0.4rem;
-}
-
-.blog_box {
-  margin-top: 1.2rem;
+/* certification Page */
+td, th{
   border: 0.1rem solid var(--brand-color);
-  padding: 0.5rem;
+  padding: 8px;
+  text-align: left;
   border-radius: 0.4rem;
 }
 
-.blog_box .blog_title {
-  font-size: 1.6rem;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.blog_box .blog_text {
-  margin: 0.4rem 0;
-  font-size: 1rem;
-  font-weight: 400;
-  text-align: justify;
-}
-
-.blog_box .blog_image {
+table{
+  border-collapse: collapse;
   width: 100%;
-  height: auto;
+  
+}
+
+.cert_page .cert_container {
+  margin: 0.4rem;
 }
 
 /* Contact Page */
