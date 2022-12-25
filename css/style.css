@@ -311,16 +311,17 @@ li .profile_title {
 }
 
 /* certification Page */
-.td .th{
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.td,
+.th {
   border: 0.1rem solid var(--brand-color);
   padding: 8px;
   text-align: left;
   border-radius: 0.4rem;
-}
-
-.table{
-  border-collapse: collapse;
-  width: 100%;
 }
 
 .cert_page .cert_container {
